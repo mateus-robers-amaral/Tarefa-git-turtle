@@ -7,7 +7,7 @@ def main():
     screen = turtle.bgcolor("#1E90FF")
     t = turtle.Turtle()
     turtle.title("Casa do Mateus")
-    t.speed(50)
+    t.speed(0)
     t.shape("turtle")
     t.color("black")
 
@@ -388,7 +388,6 @@ def main():
 
     t.end_fill()
 
-    t.speed(2)
     # desenhar a árvore
         # tronco
     t.color("black")
@@ -464,6 +463,155 @@ def main():
     t.goto(-260, -35)
 
     t.end_fill()
+
+        # desenhar as folhas
+    t.speed(50)
+    t.penup()
+    t.goto(-400, -20)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-410, -40)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-440, -20)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-420, 10)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+    
+    t.penup()
+    t.goto(-380, 10)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-285, 15)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-320, 15)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-255, 15)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-255, 45)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-320, 45)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-290, 45)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-200, 45)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+
+
+
+
+    
+        
+
+
+
+
+
+
+
+
 
     # desenhar o caminho
     t.color("black")
