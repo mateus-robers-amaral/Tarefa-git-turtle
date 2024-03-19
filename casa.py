@@ -465,7 +465,7 @@ def main():
     t.end_fill()
 
         # desenhar as folhas
-    t.speed(50)
+    t.speed(100)
     t.penup()
     t.goto(-400, -20)
     t.pendown()
@@ -483,6 +483,17 @@ def main():
 
     for _ in range(10):
         t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-380, -40)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#9ACD32")
         t.begin_fill()
         t.right(45)
         t.circle(10)
@@ -515,6 +526,17 @@ def main():
     t.pendown()
 
     for _ in range(10):
+        t.fillcolor("#9ACD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+        
+    t.penup()
+    t.goto(-410, 20)
+    t.pendown()
+
+    for _ in range(10):
         t.fillcolor("#32CD32")
         t.begin_fill()
         t.right(45)
@@ -537,7 +559,7 @@ def main():
     t.pendown()
 
     for _ in range(10):
-        t.fillcolor("#32CD32")
+        t.fillcolor("#FFA500")
         t.begin_fill()
         t.right(45)
         t.circle(10)
@@ -581,6 +603,28 @@ def main():
     t.pendown()
 
     for _ in range(10):
+        t.fillcolor("#FFA500")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-300, 60)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#9ACD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-250, 60)
+    t.pendown()
+
+    for _ in range(10):
         t.fillcolor("#32CD32")
         t.begin_fill()
         t.right(45)
@@ -592,26 +636,122 @@ def main():
     t.pendown()
 
     for _ in range(10):
+        t.fillcolor("#9ACD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-180, 35)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#FFA500")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-230, 30)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#9ACD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-115, 30)
+    t.pendown()
+
+    for _ in range(10):
         t.fillcolor("#32CD32")
         t.begin_fill()
         t.right(45)
         t.circle(10)
         t.end_fill()
 
+    t.penup()
+    t.goto(-90, 15)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
+
+    t.penup()
+    t.goto(-100, 10)
+    t.pendown()
+
+    for _ in range(10):
+        t.fillcolor("#9ACD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
 
 
+    t.penup()
+    t.goto(-140, 10)
+    t.pendown()
 
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
 
-    
-        
+    t.penup()
+    t.goto(-140, 40)
+    t.pendown()
 
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
 
+    t.penup()
+    t.goto(-140, -20)
+    t.pendown()
 
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
 
+    t.penup()
+    t.goto(-120, -20)
+    t.pendown()
 
+    for _ in range(10):
+        t.fillcolor("#9ACD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
 
+    t.penup()
+    t.goto(-200, 10)
+    t.pendown()
 
-
+    for _ in range(10):
+        t.fillcolor("#32CD32")
+        t.begin_fill()
+        t.right(45)
+        t.circle(10)
+        t.end_fill()
 
     # desenhar o caminho
     t.color("black")
