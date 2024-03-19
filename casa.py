@@ -23,13 +23,13 @@ def main():
     t.goto(960, -560)
     t.goto(-960, -560)
     t.goto(-960, 62.5)
-
     t.end_fill()
 
     # desenhar a casa
     t.penup()
     t.goto(0, -200)
     t.pendown()
+
     t.fillcolor("yellow")
     t.begin_fill()
 
@@ -46,7 +46,6 @@ def main():
     t.goto(450, 125)
     t.goto(250, 50)
     t.goto(250, -200)
-
     t.end_fill()
 
     # detalhes de tijolos
@@ -87,6 +86,7 @@ def main():
 
     t.fillcolor("red")
     t.begin_fill()
+
     t.goto(125, 200)
     t.goto(250, 50)
 
@@ -97,7 +97,6 @@ def main():
     t.goto(325, 250)
     t.goto(450, 125)
     t.goto(250, 50)
-
     t.end_fill()
 
     # desenhar as janelas
@@ -105,14 +104,13 @@ def main():
     t.goto(295, -95)
     t.pendown()
 
-    t.fillcolor("#DAA520")
+    t.fillcolor("#FFDAB9")
     t.begin_fill()
 
     t.goto(420, -28)
     t.goto(420, 55)
     t.goto(295, -5)
     t.goto(295, -95)
-
     t.end_fill()
 
     t.penup()
@@ -138,10 +136,9 @@ def main():
     t.goto(125, 70)
     t.pendown()
 
-    t.fillcolor("#DAA520")
+    t.fillcolor("#FFDAB9")
     t.begin_fill()
     t.circle(35)
-
     t.end_fill()
 
     t.penup()
@@ -169,7 +166,6 @@ def main():
     t.goto(150, -200)
     t.goto(50, -200)
     t.goto(50, -50)
-
     t.end_fill()
 
     # desenhar a maçaneta
@@ -180,7 +176,6 @@ def main():
     t.fillcolor("#C49C5C")
     t.begin_fill()
     t.circle(7.5)
-
     t.end_fill()
 
     # desenhar a lua
@@ -191,7 +186,6 @@ def main():
     t.fillcolor("#FFD700")
     t.begin_fill()
     t.circle(75)
-
     t.end_fill()
 
     t.penup()
@@ -202,7 +196,6 @@ def main():
     t.fillcolor("#1E90FF")
     t.begin_fill()
     t.circle(85)
-
     t.end_fill()
 
     # desenhar a estrelas
@@ -217,7 +210,6 @@ def main():
     for i in range(5):
         t.forward(22)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -225,11 +217,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(15)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -237,11 +227,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(24)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -249,11 +237,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(18)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -261,11 +247,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(16)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -273,11 +257,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(23)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -285,11 +267,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(14)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -297,11 +277,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(12)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -309,11 +287,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(23)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -321,11 +297,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(18)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -333,11 +307,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(21)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -345,11 +317,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(21)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -357,11 +327,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(23)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -369,11 +337,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(15)
         t.right(144)
-
     t.end_fill()
 
     t.penup()
@@ -381,11 +347,9 @@ def main():
     t.pendown()
 
     t.begin_fill()
-
     for i in range(5):
         t.forward(18)
         t.right(144)
-
     t.end_fill()
 
     # desenhar a árvore
@@ -402,7 +366,6 @@ def main():
     t.goto(-250, -30)
     t.goto(-250, -250)
     t.goto(-300, -250)
-
     t.end_fill()
 
         # galho esquerda
@@ -417,8 +380,8 @@ def main():
     t.goto(-380, -10)
     t.goto(-400, -20)
     t.goto(-300, -40)
-
     t.end_fill()
+
         #galho direita
     t.penup()
     t.goto(-250, -40)
@@ -431,9 +394,7 @@ def main():
     t.goto(-160, -10)
     t.goto(-140, -20)
     t.goto(-250, -40)
-
     t.end_fill()
-
         # galho centro-esquerda
     t.penup()
     t.goto(-290, -35)
@@ -446,9 +407,7 @@ def main():
     t.goto(-285, 15)
     t.goto(-290, 10)
     t.goto(-290, -35)
-
     t.end_fill()
-
         # galho centro-direita
     t.penup()
     t.goto(-260, -35)
@@ -461,15 +420,13 @@ def main():
     t.goto(-250, 15)
     t.goto(-250, 10)
     t.goto(-260, -35)
-
     t.end_fill()
-
         # desenhar as folhas
     t.speed(100)
     t.penup()
     t.goto(-400, -20)
     t.pendown()
-
+    
     for _ in range(10):
         t.fillcolor("#32CD32")
         t.begin_fill()
